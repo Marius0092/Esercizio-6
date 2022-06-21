@@ -51,9 +51,9 @@ label {
 
 .search-button {
     margin-left: 10px;
-    color: green;
+    color: white;
     background: black;
-    border-color: green;
+    border-color: white;
     border-radius: 5px;
 }
 
@@ -75,9 +75,14 @@ span {
         display: none;
     }
 
+    nav {
+        display: flex;
+        justify-content: flex-end;
+    }
+    
     .hamburger {
         display: flex;
-        flex-direction: column;        
+        flex-direction: column;                
     }
     
     span {
